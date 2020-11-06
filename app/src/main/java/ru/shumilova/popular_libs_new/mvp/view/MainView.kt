@@ -1,5 +1,7 @@
 package ru.shumilova.popular_libs_new.mvp.view
 
+import ru.shumilova.popular_libs_new.mvp.model.ClickButtonType
+
 interface MainView {
-    fun setButtonText(index: Int, text: String?)
+    fun setButtonText(index: ClickButtonType, text: String?)
 }

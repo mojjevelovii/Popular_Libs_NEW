@@ -1,8 +1,5 @@
 package ru.shumilova.popular_libs_new.mvp.model
 
-import java.util.*
-
-
 class Model {
     private val counters: MutableList<Int> = mutableListOf(0, 0, 0)
 
